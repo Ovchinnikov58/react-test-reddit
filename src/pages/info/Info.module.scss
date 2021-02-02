@@ -1,0 +1,17 @@
+.Info {
+  width: 100% ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.InfoTitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.InfoText {
+  width: 70%;
+}

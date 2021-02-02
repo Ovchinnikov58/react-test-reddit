@@ -1,0 +1,19 @@
+.Layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 auto;
+    width: 1024px;
+  }
+
+  .footer {
+    flex: 0 0 auto;
+  }
+}

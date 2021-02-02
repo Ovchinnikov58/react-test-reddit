@@ -1,0 +1,64 @@
+.Menu {
+  width: 100%;
+  margin-top: 2px;
+
+  &List {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    .MenuItem{
+      flex-basis: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 30px;
+      background: #95abbf;
+      border-right: 1px solid #fff;
+      border-radius: 10px;
+
+      .MenuDropBlock {
+        width: 100%;
+        height: 100%;
+        background-color: #95abbf;
+        position: relative;
+        border-radius: 10px;
+      }
+
+      .MenuLink {
+        width: 100%;
+        text-align: center;
+      }
+
+      .MenuDrop {
+        width: 100%;
+        height: 100%;
+        background-color: #95abbf;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 10px;
+      }
+
+      .MenuDroped {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: -100%;
+        left: 0;
+        color: #fff;
+        background-color: #95abbf;
+        border-top: 1px solid #fff;
+        transition: display 1s ease 0s;
+        border-radius: 10px;
+      }
+
+      .MenuDropedSecond {
+        bottom: -200%;
+        left: 0;
+      }
+    }
+  }
+}
